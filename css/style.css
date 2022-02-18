@@ -1,0 +1,58 @@
+#header {
+    position: fixed;
+    top: 0;
+    
+}
+
+section {
+    height: 100vh;
+}
+
+
+
+#products {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    
+}
+#about {
+    background-color:cadetblue;
+    color: white;
+    text-align: center;
+}
+#contacts {
+    background-color:goldenrod;
+    color: white;
+    text-align: center;
+}
+
+#header-img {
+    width: 100px;
+    height: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+
+    #header {
+        flex-direction: column;
+    }
+    #header-img {
+        display: none;
+    }
+    #logo {
+        text-align: center;
+    }
+    #logo {
+        padding: 10px;
+    }
+    #nav-bar {
+        width: 90%;
+        height: 40px;
+        justify-content: space-around;
+    }
+
+}
